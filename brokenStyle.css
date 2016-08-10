@@ -1,0 +1,13 @@
+body {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: White;
+	background-color: Black;
+	text-align: center;
+	cursor: not-allowed;
+}
+
+h1 {
+	margin-top: -0.3em;
+	font-size: 100px;
+	transform: rotate(-3deg);
+}

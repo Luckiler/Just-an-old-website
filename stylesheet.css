@@ -1,0 +1,73 @@
+.debug {
+	display: none;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+}
+
+.button1 {
+	background-color: white;
+	border-style: solid;
+	border-color: Black;
+}
+.button1:active {
+	background-color: #f2f2f2;
+}
+
+.button2 {
+	background-color: Lawngreen;
+	border-style: none;
+}
+.button2:active {
+	background-color: #a5ff9b;
+}
+
+.button3 {
+	height: 50px;
+	width: 300px;
+	background-color: #ff4d4d;
+	border-style: none;
+	box-shadow: 0px 5px 20px #808080;
+}
+.button3:active {
+	box-shadow: 0px 2px 8px #4d4d4d;
+	transform: translate(0px, 3px);
+}
+
+.button4 {
+	height: 100px;
+	width: 100px;
+	margin-left: 50px;
+	margin-top: 50px;
+	border-radius: 50%;
+	transform: rotate(0deg);
+	border-style: none;
+	background-color: #4d79ff
+}
+
+.button5 {
+	display: none;
+}
+
+
+.phase2_1 {
+	display: none
+}
+
+.phase2_1Button {
+	width: 500px;
+	background-color: White;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.phase2_1Button:hover {
+	background-color: Red;
+}

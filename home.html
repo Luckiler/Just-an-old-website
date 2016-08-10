@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Just an old Website</title>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+
+<body onload="clickCounterCheck(); clickHandler();">
+
+<h1 id="title">Just an old Website</h1>
+<h2 id="subtitle">Welcome to this old and useless website.</h2>
+
+<hr>
+
+<button id="clickButton" onclick="clickCounterAdd()" type="button"></button>
+
+
+<div class="phase2_1">
+<h3>Alright, enought!</h3>
+<p>Let's try something else : 
+<a href="broken.html">
+<button
+	onmouseenter="phase2_1buttonEnter()"
+	onmouseleave="phase2_1buttonLeave()"
+	onmousedown="phase2_1buttonDown()"
+	class="phase2_1Button"
+	id="phase2_1Button">
+	Don't click here or you'll break the website...
+	</button>
+	</a>
+</p>
+</div>
+
+
+
+
+
+
+
+<p class="debug"><br><br><br><br><br><br><br><br><br><br><br>For debugging:
+<input type="number" id="nbr"></input>
+<button onclick="setClicks()">Set Clicks</button>
+<button onclick="reset()">Reset clicks</button>
+
+<script>
+	function reset() {
+		localStorage.clickcount = 0;
+		location.reload();
+	}
+	
+	function setClicks() {
+		localStorage.clickcount = document.getElementById("nbr").value;
+		console.log(document.getElementById("nbr").value);
+		location.reload();
+	}
+</script>
+</p>
+</body>
+</html>
