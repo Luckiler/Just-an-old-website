@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title id="tabTitle">Just an old Website</title>
+		<script src="scripts.js"></script>
+		<link id="style" rel="stylesheet" href="stylesheet.css">
+		<meta charset="UTF-8">
+		<meta name="author" content="Lucas 'Luckiler' Viegas Milani">
+	</head>
+	<body onload="phase1_clickCounterCheck(); phase1_clickHandler();">
+		<div class="phase1">
+			<h1 id="phase1_title">Just an old Website</h1>
+			<h2 id="phase1_subtitle">Welcome to this old and useless website.</h2>
+			<hr>
+			<button id="clickButton" onclick="phase1_clickCounterAdd()" type="button"></button>
+			<div class="phase1_2">
+				<h3>Alright, enought!</h3>
+				<p>Let's try something else : 
+					<button
+						onmouseenter="phase1_2buttonEnter()"
+						onmouseleave="phase1_2buttonLeave()"
+						onclick="phase1_2buttonClick(), phase1_clickCounterAdd()"
+						class="phase1_2Button"
+						id="phase1_2Button"
+						>
+					Don't click here or you'll break the website...
+					</button>
+				</p>
+			</div>
+		</div>
+		<div class="phase2">
+			<h1></h1>
+		</div>
+	</body>
+</html>
