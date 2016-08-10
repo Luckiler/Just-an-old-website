@@ -1,7 +1,7 @@
 # Just an old website
-It's just an old website. Or is it?
+<b>It's just an old website. Or is it?</b>
 
-This is a website project in wich the user "stumbles" upon what seems to be an useless click-counter website.
+This is a <ins>website project</ins> in wich the user "stumbles" upon what seems to be an useless click-counter website.
 Later the site "breaks" and the user needs to adventure himself on what's left of it in order to "repair" him.
 
 It is a super dynamic website destined to procrastinate and to have kind of a phylosophical journey (i'll see if that holds).
